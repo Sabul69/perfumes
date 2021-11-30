@@ -6,7 +6,7 @@ import StoreContext from '../../Context/StoreContext'
 const Home = () => {
     const {state} = useContext(StoreContext)
     return (
-        <div className="flex items-center justify-center flex-wrap absolute top-20">
+        <div className="flex items-center justify-center flex-wrap absolute top-20 ">
             {state.products.map(product=>(
                 <Card
                 key={product.id}

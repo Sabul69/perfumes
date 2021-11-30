@@ -14,7 +14,7 @@ const Checkout = () => {
             <div className="font-play flex justify-between w-full p-3 border-b-4">
                 <p className="w-4/12">Producto</p>
                 <p className="w-3/12">Unidades</p>
-                <p className="w-2/12">Subtotal</p>
+                <p className="w-2/12 md:w-1/12">Subtotal</p>
             </div>
            {state.cart.map(producto=>(
             <Compras

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Compras = ({producto}) => {
     return (
-        <div className="my-8 flex justify-between items-center p-2 font-play">
-            <div>
+        <div className="my-8 flex justify-between items-center p-2 font-play md:mx-14">
+            <div >
                 <img className="h-20" src={producto.img} alt="" />
                 <p className="text-xs text-center">{producto.name}</p>
             </div>

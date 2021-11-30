@@ -4,7 +4,7 @@ import StoreContext from '../../Context/StoreContext'
 const Card = ({id, name,img,price, product}) => {
     const {dispatch} = useContext(StoreContext)
     return (
-        <div className="border-2 border-black rounded-xl m-5 p-3 flex justify-center items-center flex-col">
+        <div className="border-2 border-black rounded-xl m-7 p-3 flex justify-center items-center flex-col">
            <img className="w-52 h-52" src={img} alt={name} /> 
            <h3 className="my-1 font-play font-semibold">{name}</h3>
            <p className="my-2 font-play">${price}</p>
