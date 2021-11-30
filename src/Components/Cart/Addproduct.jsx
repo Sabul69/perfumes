@@ -5,7 +5,7 @@ const Addproduct = ({name, img, price, quantity, producto }) => {
     const {dispatch} = useContext(StoreContext)
     return (
         <div className="flex justify-between items-center my-6 font-play w-full">
-        <img className="h-20 w-20" src={img} alt={name} />  
+        <img className="h-24 " src={img} alt={name} />  
         <div className="flex flex-col justify-center items-center">
             <p>{name}</p>
             <p>${price}</p>
